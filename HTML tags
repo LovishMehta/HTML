@@ -1,0 +1,100 @@
+Title tag
+-> It is written in <head> tag
+-> The <title> tag defines the title of the document
+-> It defines a title in the browser toolbar
+-> It provides a title for the page when it is added to favorites
+-> It displays a title for the page in search-engine results
+
+Head tag
+-> Headings are defined with the <h1> to <h6> tags
+
+-> <h1> tag defines the most important heading.
+-> <h6> tag define the least important heading.
+
+-> Search engine use your headings to index the structure and content of your web pages
+
+Paragraph tag
+-> Paragraphs are defined with the <p> tag.
+-> Browsers automatically add an empty line before and after a paragraph.
+
+Formatting tags 
+
+<br/> : It is an empty HTML element i.e it has no end tag. (both the start and end are in one tag)
+-> Use the <br/> tag if you want a line break ( a new line) without starting a new paragraph.
+
+<hr/> : It is an empty HTML element i.e it has no end tag.
+-> use the <hr/> tag creates a horizontal line in an HTML page.
+-> The <hr/> element can be used to separate content.
+
+Image tag 
+-> Images are defined with the <img> tag.
+-> The <img> tag is empty, which means that it contains attributes only, and has no closing tag.
+-> To display an image on a page, you need to use the "src" attribute. src stands for "source".
+   The value of src attribute is the URL of the image you want to display.
+   
+   Attributes of the image tag
+   -> src = url of the image
+   -> alt = alternative text
+   -> width = pixel of percentage
+   -> Height = pixel of percentage
+   -> Align = top,bottom,middle,left,right
+   -> Border = pixel
+   
+List tag
+Two types of List tag
+ 1. Unordered List tag: 
+    ->  The <ul> tag is used to created an unordered list.
+    -> Each list item start with <li> tag.
+    -> The list items are marked with bullets
+   
+   Attributes of the unordered list tag
+    -> square
+    -> disc
+    -> circle
+    
+ 2. Ordered List tag:
+    -> The <ol> tag is used to created an ordered list.
+    -> The list can be numerical and alphabetical.
+   
+   Attributes of the unordered list tag    
+    -> A
+    -> i
+    -> I
+    -> 1
+
+Anchor tag
+-> A hyperlink(or link) is a word, group of words, or image that you can click on to jump to a new document
+   or a new section within the current document.
+-> Links are specified in the HTML using the <a> tag.
+-> <a href="url">Link text </a>
+
+Example
+<html>
+<head>
+<title>Welcome home page</title>
+</head>
+<hr/>
+<h1> My Heading </h1>
+<img border ="3px" alt="my pic" src="profile pic.jpg"/>
+<a href="https://www.google.com/"> Google </a>
+
+<ul>
+<li> Java </li>
+<li> C++ </li>
+<li> C </li>
+<li> PHP </li>
+</ul>
+
+<ol>
+<li> Java </li>
+<li> C++ </li>
+<li> C </li>
+<li> PHP </li>
+</ol>
+
+<p> This is my name. <br/> What is your <hr/> name.</p>
+<h2> My Heading </h2>
+<h6> My Heading </h6>
+<body>
+</body>
+</html>
