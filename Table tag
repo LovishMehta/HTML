@@ -1,0 +1,60 @@
+Table tag
+-> <table> defines a table
+
+Attributes of table tag
+-> border: it specifies the width of the border around a table
+-> cellpadding: it specifies the space between the cell wall and cell content
+-> cellspacing: it specifies the space between cells
+-> align: value can be left, center or right)
+-> width: specifies the width of a table
+-> bgcolor: specifies a background color of a table
+     -color name("pink")
+     -Hex code of color name ("#ffA000")
+     -rgb number("rgb(255,0,0)")
+
+<tr> tag define row in a table
+<th> tag define a table header ( text is bold and center aligned)
+<td> tag defines table data    ( text is not bold and is left aligned)
+
+Attributes for <th> and <td>
+-> align: left,right,center,justify
+-> bgcolor: color name, rgb(), hexcode
+-> colspan = number (if you want one column in a row instead of two then you can use colspan="2")
+-> rowspan = number
+-> height = pixel or percentage
+-> valign = top,middle,bottom.
+-> width = pixel or percentage
+
+Example
+<html>
+<head>
+<title> Welcome to table tag pagee </title>
+</head>
+<body>
+<table border="2px">
+<tr>
+<th> S.No. </th>
+<th> Subjects </th>
+<th> Grade </th>
+</tr>
+
+<tr>
+<td> 1 </td>
+<td>  Physics </td>
+<td> A </td>
+</tr>
+
+<tr>
+<td> 2 </td>
+<td> C++ </td>
+<td> B+ </td>
+</tr>
+
+<tr>
+<td colspan="2"> Total SGPA </td>
+<td> 8.0 </td>
+</tr>
+
+</table>
+</body>
+</html>
