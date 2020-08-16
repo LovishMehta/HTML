@@ -1,0 +1,48 @@
+What is a programming language
+A language which has decision making capabilities i.e. if, else, loop, switch statements
+
+HTML : it is a markup language (not a progragramming language)
+(Hyper text markup language)
+
+-> It is case insensitive language
+-> HTML uses markup tags to define a web page (HTML language mai sirf markup tags hi use kiye jaate hai yaani matlab mujhe ek page p kya kya content 
+   dikhane hai jaise ki image dikhani hai , paragraph dikhana hai mujhe jo bhi element page p dikhana hai us element ko detect karne k liye markup
+   tags hote hai
+-> HTML file has an extension .htm
+-> HTML is developed by world wide web Consortium
+
+<h1 align="Center"> Registration Form</h1>
+-> An HTML element is an individual component of a HTML document (e.g. h1 is an HTML element)
+-> It start with a start tag / opening (<h1 align="Center >) tag and ends with an end tag / closing tag (</h1>)
+-> The element content is everything between the start and end tag (i.e. in above example Registration Form is the content)
+-> Most HTML element can have attributes (e.g. "h1" element has attribute "align") 
+
+All HTML documents must start with a type declaration: <!DOCTYPE html>
+-> <html>
+-> <head>
+-> <body> 
+
+<html> : It is the root element of an HTML document; all other elements are contained in this.
+         The html element delimits the beginning and the end of an HTML document
+         
+<head> : contains the processing information and metadata for an HTML document. (khi baar hmare HTML page se aur bhi associated files hoti hai jaise ki
+         css aur java script files to unko attach karne k liye jo lines likhunga vo header file mai likhunga iske ilave jo mai page k baare mai description
+         rakhna chahta hoon vo bhi ise me likhunga.
+
+<body> : contains the displayable content of an HTML document.
+
+Format of HTML document 
+<html>
+<head>
+Place processing information and metadata here
+</head>
+<body>
+Place displayable content here
+</body>
+</html>
+
+For using comments in html language
+<!--
+Write your comment 
+-->
+         
