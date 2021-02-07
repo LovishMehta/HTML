@@ -1,3 +1,20 @@
+Sementic vs Non Semantic elements :
+A semantic element clearly describes its meaning to both the browser and the developer.
+Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
+https://www.w3schools.com/html/html5_semantic_elements.asp#:~:text=A%20semantic%20element%20clearly%20describes,%3E%20%2D%20Clearly%20defines%20its%20content.
+
+Inline vs Block
+Block:
+A block-level element always starts on a new line.
+A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+A block level element has a top and a bottom margin, whereas an inline element does not.
+
+Inline:
+An inline element does not start on a new line.
+An inline element only takes up as much width as necessary.
+https://www.w3schools.com/html/html_blocks.asp
+
 Title tag
 -> It is written in <head> tag
 -> The <title> tag defines the title of the document
@@ -39,7 +56,81 @@ Image tag
    -> Height = pixel of percentage
    -> Align = top,bottom,middle,left,right
    -> Border = pixel
-   
+
+Video tag : 
+-> We can attach video in our website
+ Attributes
+ -> autoplay: Specifies that the video will start playing as soon as it is ready
+ -> controls: Specifies that video controls should be displayed (such as a play/pause button etc).
+ -> height:	Sets the height of the video player
+ -> loop: Specifies that the video will start over again, every time it is finished
+ -> muted: Specifies that the audio output of the video should be muted
+ -> poster	Specifies an image to be shown while the video is downloading, or until the user hits the play button
+ -> preload: Specifies if and how the author thinks the video should be loaded when the page loads
+ -> src: Specifies the URL of the video file
+ -> width: 	Sets the width of the video player
+ Example
+<video width="320" height="240" controls>
+ <source src="movie.mp4" type="video/mp4">
+ <source src="movie.ogg" type="video/ogg">
+ Your browser does not support the video tag.
+ </video>
+
+iframe tag:(this is called embed)
+-> We can display other websites in our website
+Attributes of Iframe tag
+-> src
+-> name
+-> frameborder
+-> width	
+-> scrolling
+e.g. <iframe src = "/html/menu.htm" width = "555" height = "200">
+
+Table tag (https://www.tutorialspoint.com/html/html_tables.htm)
+HTML tables are created using the <table> tag in which the 
+<tr> tag is used to create table rows and 
+<td> tag is used to create data cells.The elements under <td> are regular and left aligned by default
+<td colspan = "3"> colspan attribute if you want to merge two or more columns into a single column.
+<td rowspan = "2"> rowspan if you want to merge two or more rows.
+<th> - heading can be defined using <th> tag.
+<thead> − to create a separate table header.
+<tbody> − to indicate the main body of the table.
+<tfoot> − to create a separate table footer.
+<td colspan = "3">
+<td rowspan = "2">
+
+Example:
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML Table Colspan/Rowspan</title>
+   </head>
+	
+   <body>
+      <table border = "1">
+         <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+         </tr>
+         <tr>
+            <td rowspan = "2">Row 1 Cell 1</td>
+            <td>Row 1 Cell 2</td>
+            <td>Row 1 Cell 3</td>
+         </tr>
+         <tr>
+            <td>Row 2 Cell 2</td>
+            <td>Row 2 Cell 3</td>
+         </tr>
+         <tr>
+            <td colspan = "3">Row 3 Cell 1</td>
+         </tr>
+      </table>
+   </body>
+	
+</html>
+
 List tag
 Two types of List tag
  1. Unordered List tag: 
@@ -98,3 +189,12 @@ Example
 <body>
 </body>
 </html>
+
+Form tag
+Elements 
+<input>
+Attrribute
+-> type - text,number,radio,date,email,password,submit etc
+-> name - name of that particular field which will go to server
+-> value - value that will go to server
+
