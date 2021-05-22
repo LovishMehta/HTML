@@ -164,8 +164,14 @@ Two types of List tag
 Anchor tag
 -> A hyperlink(or link) is a word, group of words, or image that you can click on to jump to a new document
    or a new section within the current document.
+   i.e. we can go to some webpage or if we create multiple webpages for our website we can use anchor tag to navigate.
 -> Links are specified in the HTML using the <a> tag.
 -> <a href="url">Link text </a>
+
+Attribute of Anchor tag
+href = "URL" -> link that you want to open
+target = "_blank" -> this will open the url in new tab
+<a href="url" target = "_blank" >Link text </a>
 
 Example
 <html>
