@@ -1,3 +1,23 @@
+Index
+-> Sementic vs Non Semantic elements
+-> Inline vs Block
+-> Title Tag
+-> Head Tag
+-> Paragraph Tag
+-> Some tags used for changing displap like bold ,italic etc
+-> Formatting tag
+-> Image tag
+-> Video tag
+-> Ifram tag
+-> List tag -> <ul>, <ol> tags
+-> anchor tag
+-> form tag -> <input>, <textarea>, <select> tags
+-> Entities in html tag
+-> fieldset tag
+-> legend tag
+
+
+
 Sementic vs Non Semantic elements :
 A semantic element clearly describes its meaning to both the browser and the developer.
 Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
@@ -205,8 +225,8 @@ Example
 </html>
 
 Form tag
-Elements
 
+Elements
 -> <input>
    Attrribute
    -> type - text,number,radio,date,email,password,submit etc
