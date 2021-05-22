@@ -204,6 +204,6 @@ If you use the less than (<) or greater than (>) signs in your text, the browser
 Character entities are used to display reserved characters in HTML.
 
 For exampel you want top display less than symbol in "<" heading <h1>, then you cannot directly mention the symbol <h1> < </h1>. So to display these reserved characters
-or symbols html has entities. So you will right &lt to display "<" symbol. <h1> &lt </h1>.
+or symbols html has entities. So you will right &lt; to display "<" symbol. <h1> &lt; </h1>.
 
 https://www.w3schools.com/html/html_entities.asp
