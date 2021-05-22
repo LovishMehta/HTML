@@ -34,6 +34,13 @@ Paragraph tag
 -> Paragraphs are defined with the <p> tag.
 -> Browsers automatically add an empty line before and after a paragraph.
 
+Some tags used for changing displap like bold ,italic etc
+<b> </b> : text inside it becomes bold
+<i> </i> : text inside it becomes italic
+<small> </small> : text inside it becomes small in size
+<sup> </sup> : used to write power. e.g. to write 10 square -> 10 <sup>2</sup>
+<sub> </sub> : used to write in base e.g. to write log base 10 -> log <sub>10</sub>
+
 Formatting tags 
 
 <br/> : It is an empty HTML element i.e it has no end tag. (both the start and end are in one tag)
@@ -152,7 +159,8 @@ Two types of List tag
     -> i
     -> I
     -> 1
-
+    write "type = A"
+    
 Anchor tag
 -> A hyperlink(or link) is a word, group of words, or image that you can click on to jump to a new document
    or a new section within the current document.
